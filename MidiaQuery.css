@@ -1,0 +1,66 @@
+/* .section-1
+{
+    background-color: greenyellow;
+    height: 500px;
+}
+@media (orientation:portrait){
+    .section-1{
+        background-color: rebeccapurple;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    span{
+        display: none;
+    }
+    
+} */
+
+.mane-div
+{
+    display: flex;
+}
+
+.section-1
+{
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    gap: 5px;
+
+}
+.section-2
+{
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    gap: 5px;
+
+}
+.section-3
+{
+    background-color: blueviolet;
+    width: 200px;
+    height: 150px;
+    gap: 5px;
+}
+.section-4
+{
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    gap: 5px;
+    
+}
+
+@media (width:100px)
+{
+    .mane-div
+    {
+        display: none;
+        display: inline;
+
+
+    }
+}
