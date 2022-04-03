@@ -53,5 +53,12 @@
 }
 .button
 {
-    color: ;
+    border-radius: 16px;
+    width: 51px;
+    height: 85%;
+    font-size: 9px;
+    background-color: #2ec66d;
+    color: #fff;
+    border: none;
+    text-decoration: none;
 }
