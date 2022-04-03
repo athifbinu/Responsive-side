@@ -1,66 +1,57 @@
-/* .section-1
+*
 {
-    background-color: greenyellow;
-    height: 500px;
+    margin: 0;
+    padding: 0;
 }
-@media (orientation:portrait){
-    .section-1{
-        background-color: rebeccapurple;
-        font-size: 10px;
-        text-align: center;
-        padding-top: 20px;
 
-    }
-    span{
-        display: none;
-    }
-    
-} */
+ .banner-image
+{
+    background-image: url('Images/13-55-34-351_1440x550.webp');
+    height: 100vh;
+    background-repeat: no-repeat;    /*it is used to remove the repeat eliment */  /* vh values is height focus. px value is widthe are focus */
+    background-size: cover;       /*background-size: cover  it is used to background image are set in full screen widthe and height in responsive tyme;                         */ 
+  
+ 
+}
+.header
+{
+    height: 36px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 60px rgb(0 0 0 / 12%);
+    border-bottom: 1px solid #eee;
+    display: flex;
 
-.mane-div
+}
+
+.banner-icon
+{
+    height: 90px;
+    margin-top: -23px;
+}
+.navigation
 {
     display: flex;
-}
+    gap: 10px;
+    padding-left: 18px;
+    padding-top: 10px;
 
-.section-1
-{
-    background-color: blue;
-    width: 200px;
-    height: 150px;
-    gap: 5px;
 
 }
-.section-2
+.nav-content
 {
-    background-color: aqua;
-    width: 200px;
-    height: 150px;
-    gap: 5px;
-
+    font-size: 9px;
+    padding-top: 7px;
 }
-.section-3
+.left-section
 {
-    background-color: blueviolet;
-    width: 200px;
-    height: 150px;
-    gap: 5px;
+    display: flex;
+    font-size: 10px;
+    padding-left: 211px;
+    margin-top: 16px;
+    gap: 10px;
 }
-.section-4
+.button
 {
-    background-color: brown;
-    width: 200px;
-    height: 150px;
-    gap: 5px;
-    
-}
-
-@media (width:100px)
-{
-    .mane-div
-    {
-        display: none;
-        display: inline;
-
-
-    }
+    color: ;
 }
