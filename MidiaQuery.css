@@ -10,7 +10,7 @@
     height: 100vh;
     background-repeat: no-repeat;    /*it is used to remove the repeat eliment */  /* vh values is height focus. px value is widthe are focus */
     background-size: cover;       /*background-size: cover  it is used to background image are set in full screen widthe and height in responsive tyme;                         */ 
-  
+   filter: brightness(80%);       /* it is used to change britness  */
  
 }
 .header
@@ -61,4 +61,37 @@
     color: #fff;
     border: none;
     text-decoration: none;
+}
+.text-center
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 72px;
+    font-weight: bolder;
+}
+.million
+{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    padding-top: 10px;
+}
+.Search
+{
+    margin-left: 165px;
+    height: 28px;
+    border-radius: 7px;
+    width: 415px;
+    margin-top: 10px;
+    font-size: 9px;
+    padding-left: 8px;
+    
+}
+.small-text
+{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 3px;
+    color: #fff;
 }
