@@ -5,16 +5,17 @@
 }
 body
 {
-    margin: 0;
+   margin: 0;
+
 }
 
  .banner-image
-{
+{    
     background-image: url('Images/13-55-34-351_1440x550.webp');
     height: 100vh;
     background-repeat: no-repeat;    /*it is used to remove the repeat eliment */  /* vh values is height focus. px value is widthe are focus */
     background-size: cover;       /*background-size: cover  it is used to background image are set in full screen widthe and height in responsive tyme;                         */ 
-   filter: brightness(80%);       /* it is used to change britness  */
+   filter: brightness(80%);  
  
 }
 .header
@@ -25,6 +26,7 @@ body
     box-shadow: 0 0 60px rgb(0 0 0 / 12%);
     border-bottom: 1px solid #eee;
     display: flex;
+
 
 }
 
@@ -47,6 +49,7 @@ body
 {
     font-size: 9px;
     padding-top: 7px;
+    
 }
 .left-section
 {
@@ -55,6 +58,13 @@ body
     padding-left: 149px;
     margin-top: 16px;
     gap: 10px;
+}
+
+.explore
+{
+    height: 13px;
+    font-size: 9px;
+    border: none;
 }
 .button
 {
@@ -91,6 +101,7 @@ body
     margin-top: 10px;
     font-size: 9px;
     padding-left: 8px;
+    border: none;
     
 }
 .small-text
@@ -101,19 +112,39 @@ body
     color: #fff;
 }
 
-@media (max-width:740px) {
-
+@media (max-width:540px) {
     .header
     {
-         overflow: hidden;
+        float: none;
+        display: block;
     }
+    
 }
 
+ /* @media (max-width:400px) {
+    .left-section
+    {
+        flex-direction: column;
+    }
+
+    
+}  */
+
+/* @media (max-width:300px) {
+    .header
+    {
+        width: 90px;
+    }
+    
+}
 
 @media (max-width:700px) {
-    .Search{
-        margin-left: -24px;
-        width: 100%;
-         text-align: center;
-    }
-}
+    body
+        {
+            
+        }
+    
+} */
+
+
+

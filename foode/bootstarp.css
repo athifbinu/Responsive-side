@@ -1,0 +1,33 @@
+.d-flex
+{
+    display: flex!important;
+    height: 29px;
+    width: 217px;
+    font-size: 10px;
+    
+}
+.form-control
+{
+    font-size: 10px;
+
+}
+.navbar 
+{
+    height: 57px;
+
+    
+}
+img.slide
+{
+    height: 500px;
+}
+.btn-dosa 
+{
+    margin-top: -37px;
+}
+#location-text
+{
+    padding-left: 34px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
