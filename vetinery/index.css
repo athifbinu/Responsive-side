@@ -101,55 +101,47 @@ body
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* responsive side */
 
 
 @media (max-width: 400px) {
 
-      .navbar-links
-    {
-        
-        width: 100%;
+    .navbar-links
+  {
+      
+      width: 100%;
 
-    }   
-    .navbar
-    {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-     .navbar-links ul
-    {   
-         width: 100%;         
-        flex-direction: column;
+  }   
+  .navbar
+  {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+   .navbar-links ul
+  {   
+       width: 100%;         
+      flex-direction: column;
 
-    } 
+  } 
 
-     .navbar-links li
-    {
-        text-align: center;
-    } 
+   .navbar-links li
+  {
+      text-align: center;
+  } 
 
-  
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
