@@ -1,4 +1,4 @@
-*
+/* 
 {
   box-sizing: border-box;
   font-family: sans-serif;
@@ -12,7 +12,7 @@
   grid-template-columns: minmax(300px 1fr);
   justify-content: center;
   grid-gap: 2rem;
-  margin: 3rem;
+  margin: 2rem;
 }
 .container
 {
@@ -21,6 +21,7 @@
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
+  
 
 
 }
@@ -75,6 +76,25 @@
   .wraper-grid
   {
     grid-template-columns: repeat(3,1fr);
+  }
+  
+} */
+
+.profile-card
+{
+  display: flex;
+  gap: 20px;
+  
+}
+
+@media (max-width:550px) {
+  .profile-card
+  {
+    display: grid;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
 }

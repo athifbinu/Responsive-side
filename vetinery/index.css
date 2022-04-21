@@ -6,14 +6,16 @@
 }
 body
 {
-    margin: 0;
+     margin: 0;
     padding: 0;
+
+
 }
 .navbar
 {
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+     background-color: #333;
     color: #fff;
 
 }
@@ -73,10 +75,29 @@ body
 {
     margin-top: -12px;
 }
-.cat-food
+.cat-food.cat-food.cat-food
 {
     text-align: center;
     gap: 2px;
+    color: #fff;
+}
+
+
+.founders
+{
+    text-align: center;
+    color: #fff;
+}
+.profile-card
+{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+}
+.back
+{
+     background-color:black;     /* used to create background*/
 }
 
 
@@ -102,17 +123,7 @@ body
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* responsive side */
 
 
 @media (max-width: 400px) {
