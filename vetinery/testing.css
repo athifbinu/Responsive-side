@@ -1,0 +1,26 @@
+*
+{
+    box-sizing: border-box;
+}
+.image-section
+{
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 40px;
+    padding-left: 150px;
+  
+}
+.image-section image
+{
+    width: 100%;
+    height: auto;
+
+}
+.image-gallery
+{
+    padding: 0.5px;
+    width: 25%;
+   
+   
+
+}
