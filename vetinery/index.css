@@ -112,14 +112,29 @@ body
 }
 
 
-/* .image-section
+.img-row
 {
     width: 100%;
+    height: 43vh;
+}
+.image-section
+{
     display: flex;
-    height: 300px;
-    justify-content: center;
     gap: 30px;
-} */
+    justify-content:center;
+}
+
+
+
+@media (max-width:750px) {
+    .image-section
+    {
+        display: grid;
+    }
+    
+}
+
+
 
 
 
